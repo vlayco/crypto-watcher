@@ -8,19 +8,10 @@ const Header = () => {
           <Link href="/">CryptoWatch</Link>
         </span>
 
-        <div className="flex flex-row items-center justify-between space-x-16">
-          <span>
-            <select className="outline-none text-lg p-1 rounded-md border-none bg-lime-400 text-gray-950">
-              <option>US</option>
-              <option>EU</option>
-            </select>
-          </span>
-
-          <span className="text-xl text-lime-400 hover:text-lime-500 transition-colors">
-            <Link href="/">Login</Link>
-          </span>
-        </div>
-
+        <span className="text-xl text-lime-400 hover:text-lime-500 transition-colors">
+          <Link href="/">Login</Link>
+        </span>
+        
       </nav>
     </div>
   )
