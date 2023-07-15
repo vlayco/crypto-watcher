@@ -9,7 +9,7 @@ export default function Layout(
   }
 ) {
   return (
-    <section className="flex flex-col">
+    <section className="flex flex-col min-h-screen">
       <Header />
       {children}
       <Footer />

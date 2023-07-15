@@ -2,7 +2,9 @@ import React from 'react'
 
 const CoinsPage = () => {
   return (
-    <div>This is the coins page</div>
+    <main className='flex-1 text-yellow-100'>
+      <section className='container mx-auto'>This is the coins page</section>
+    </main>
   )
 }
 
