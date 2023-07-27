@@ -3,13 +3,14 @@ import background from "../../../public/crypto-watch-banner-background.jpg"
 
 const CryptoBanner = () => {
   return (
-    <section className='flex flex-col items-center justify-center w-full h-fit'>
+    <section className='flex flex-col items-center justify-center w-full h-auto'>
       <div className="relative w-full lg:container lg:mx-auto">
-        <div className="absolute w-full -z-10">
+        <div className="absolute w-full -z-10 h-auto overflow-hidden object-fit">
           <Image
             src={background}
+            sizes="100vw"
             alt="abstract-background-image"
-            className="object-contain object-center"
+            className="opacity-60"
           >
 
           </Image>
