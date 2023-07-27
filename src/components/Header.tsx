@@ -3,7 +3,7 @@ import Link from "next/link";
 const Header = () => {
 
   return (
-    <div className="flex flex-row p-4 border-b border-yellow-300/20 mb-5 shadow-xl shadow-lime-200/5">
+    <div className="flex flex-row p-4 border-b border-yellow-300/20 shadow-xl shadow-lime-200/5">
       <nav className="container mx-auto w-full flex flex-row items-center justify-between">
         <span className="text-3xl text-lime-400 hover:text-lime-500 transition-colors font-semibold">
           <Link href="/">CryptoWatch</Link>
