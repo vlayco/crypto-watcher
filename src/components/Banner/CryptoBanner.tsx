@@ -3,20 +3,22 @@ import background from "../../../public/crypto-watch-banner-background.jpg"
 
 const CryptoBanner = () => {
   return (
-    <section className='flex flex-col items-center justify-center w-full h-auto'>
+    <section className='flex flex-col items-center justify-center w-full max-h-[600px]'>
       <div className="relative w-full lg:container lg:mx-auto">
-        <div className="absolute w-full -z-10 h-auto overflow-hidden object-fit">
+        <div className="absolute w-full -z-10 h-auto max-h-[600px] overflow-hidden object-fit">
           <Image
             src={background}
             sizes="100vw"
             alt="abstract-background-image"
             className="opacity-60"
-          >
-
-          </Image>
+          ></Image>
         </div>
       </div>
-      <h1 className="flex flex-col text-center items-center justify-center text-6xl font-semibold h-96">Above the background</h1>
+
+      <div className="flex flex-col items-center justify-center">
+        <h1 className="text-2xl md:text-4xl lg:text-6xl py-4 md:py-6 lg:py-8 font-normal">Crypto Watch</h1>
+        <h2 className="text-md md:text-xl lg:text-2xl font-light">Place to get the insight into top crypto-currencies market prices!</h2>
+      </div>
     </section>
   )
 }
