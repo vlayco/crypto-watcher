@@ -11,6 +11,7 @@ const CryptoBanner = () => {
             src={background}
             sizes="100vw"
             alt="abstract-background-image"
+            priority={true}
             className="opacity-60"
           ></Image>
         </div>
