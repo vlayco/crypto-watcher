@@ -1,17 +1,20 @@
 "use client"
 
 import { trendingCoins } from "@/config/api";
+import { useCurrency } from "@/store/currencyContext";
 import { useEffect, useState } from "react";
 
 const Carousel = () => {
   const [trending, setTrending] = useState('empty for now');
 
   // To be implemented soon.
-  const currency = 'get the selected currency from context';
+  // const currency = 'get the selected currency from context';
+
+  const { currency } = useCurrency();
 
   const fetchTrendingCoins = async () => {
-    const { data } = await fetch(trendingCoins('eu'));
-    setTrending(data);
+    // const { data } = await fetch(trendingCoins('eu'));
+    // setTrending(data);
   }
 
   useEffect(() => {
