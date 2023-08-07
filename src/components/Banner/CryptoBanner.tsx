@@ -18,8 +18,8 @@ const CryptoBanner = () => {
       </div>
 
       <div className="flex flex-col items-center justify-center">
-        <h1 className="text-4xl lg:text-6xl py-4 md:py-6 lg:py-8 font-normal">Crypto Watch</h1>
-        <h2 className="text-md md:text-xl lg:text-2xl font-light py-2 md:py-4 lg:py-6">Place to get the insight into top crypto-currencies market prices!</h2>
+        <h1 className="text-4xl lg:text-6xl py-4 md:py-6 lg:py-8 font-normal lg:font-medium">Crypto Watch</h1>
+        <h2 className="text-md md:text-xl lg:text-2xl font-light pb-2 md:pb-4 lg:pb-6 px-2">Place to get the insight into top crypto-currencies market prices!</h2>
 
         <Carousel />
       </div>
